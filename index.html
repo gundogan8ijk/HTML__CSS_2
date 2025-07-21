@@ -31,6 +31,7 @@
         rel="stylesheet">
     <!--reset css  -->
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- style css -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>smile</title>
@@ -82,9 +83,9 @@
                 <div class="hero__media">
                     <figure class="hero__images">
                         <img src="./assets/img/img11.jpg" alt="Exceptional dental care for all ages"
-                            class="hero__img hero__img-large">
+                            class="hero__img hero__img-large" data-aos="fade-down">
                         <img src="./assets/img/hero-2.jpg" alt="Exceptional dental care for all ages"
-                            class="hero__img hero__img-small">
+                            class="hero__img hero__img-small" data-aos="fade-down">
                     </figure>
                 </div>
             </section>
@@ -102,7 +103,7 @@
 
                 <div class="service__row">
                     <!-- servie-left -->
-                    <figure><img src="./assets/img/ourservice1.jpg" alt="Our services" class="service__img"></figure>
+                    <figure><img src="./assets/img/ourservice1.jpg" alt="Our services" class="service__img" data-aos="zoom-in"></figure>
                     <!-- service-right -->
                     <div class="service__list">
                         <!-- item1 -->
@@ -206,8 +207,8 @@
                     <!-- about right -->
                     <div class="about__media">
                         <figure class="about__images">
-                            <img src="./assets/img/bghoa.jpg" alt="" class="about__img--big">
-                            <img src="./assets/img/about2.jpg" alt="" class="about__img--small">
+                            <img src="./assets/img/bghoa.jpg" alt="" class="about__img--big" data-aos="fade-down-right">
+                            <img src="./assets/img/about2.jpg" alt="" class="about__img--small" data-aos="fade-down-right">
                         </figure>
                     </div>
                     <!-- about left -->
@@ -233,7 +234,7 @@
                     <!-- item1 -->
                     <article class="team-item">
                         <div class="team-item__img-bg">
-                            <img src="./assets/img/snapedit_1752943439080.png" alt="" class="team-item__thumb">
+                            <img src="./assets/img/snapedit_1752943439080.png" alt="" class="team-item__thumb" data-aos="fade-up">
                         </div>
                         <h3 class="team-item__name">Dr. Essence Page</h3>
                         <p class="team-item__desc">DDS, California - Linda University</p>
@@ -242,7 +243,7 @@
                     <!-- item2 -->
                     <article class="team-item">
                         <div class="team-item__img-bg">
-                            <img src="./assets/img/snapedit_1752943380478.png" alt="" class="team-item__thumb">
+                            <img src="./assets/img/snapedit_1752943380478.png" alt="" class="team-item__thumb" data-aos="fade-up">
                         </div>
                         <h3 class="team-item__name">Dr. Essence Page</h3>
                         <p class="team-item__desc">DDS, California - Linda University</p>
@@ -251,7 +252,7 @@
                     <!-- item3 -->
                     <article class="team-item">
                         <div class="team-item__img-bg">
-                            <img src="./assets/img/snapedit_1752943241370.png" alt="" class="team-item__thumb">
+                            <img src="./assets/img/snapedit_1752943241370.png" alt="" class="team-item__thumb" data-aos="fade-up">
                         </div>
                         <h3 class="team-item__name">Dr. Essence Page</h3>
                         <p class="team-item__desc">DDS, California - Linda University</p>
@@ -260,7 +261,7 @@
                     <!-- item4 -->
                     <article class="team-item">
                         <div class="team-item__img-bg">
-                            <img src="./assets/img/snapedit_1752943167746.png" alt="" class="team-item__thumb">
+                            <img src="./assets/img/snapedit_1752943167746.png" alt="" class="team-item__thumb" data-aos="fade-up">
                         </div>
                         <h3 class="team-item__name">Dr. Essence Page</h3>
                         <p class="team-item__desc">DDS, California - Linda University</p>
@@ -343,7 +344,7 @@
                         <!-- item1 -->
                         <article class="blog-item">
                             <figure class="blog-item__wrap"><img src="./assets/img/blog__.jpg" alt=""
-                                    class="blog-item__thumb"></figure>
+                                    class="blog-item__thumb" data-aos="zoom-in-down"></figure>
                             <section class="blog-item__body">
                                 <h3>
                                     <a href="#!" class="blog-item__heading">Key Considerations for Regulatory
@@ -358,7 +359,7 @@
                         <!-- item2 -->
                         <article class="blog-item">
                             <figure class="blog-item__wrap"><img src="./assets/img/blog__r.jpg" alt=""
-                                    class="blog-item__thumb"></figure>
+                                    class="blog-item__thumb" data-aos="zoom-in-down"></figure>
                             <section class="blog-item__body">
                                 <h3>
                                     <a href="#!" class="blog-item__heading">What Is Population Health Management?</a>
@@ -466,6 +467,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
